@@ -2,9 +2,9 @@
   "name": "cinemania-vanilla-ts",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {},
   "scripts": {
-    "start": "echo 'start'"
+    "start": "npx tsc -w src/*.ts",
+    "build": "npx tsc"
   },
   "devDependencies": {
     "typescript": "^5.6.3"
