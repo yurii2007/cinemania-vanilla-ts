@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npx tsc -w src/*.ts",
-    "build": "npx tsc"
+    "start": "npx tsc -w",
+    "build:prod": "npx esbuild ./src/index.ts --bundle --minify --outdir=build",
+    "build:dev": "npx esbuild ./src/index.ts --bundle --outdir=build --watch"
   },
   "devDependencies": {
+    "esbuild": "^0.24.0",
     "typescript": "^5.6.3"
   },
   "browserslist": {
@@ -20,5 +22,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "express": "^4.21.1"
   }
 }
