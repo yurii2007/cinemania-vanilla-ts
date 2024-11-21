@@ -1,4 +1,4 @@
-import { urlRoutes } from '../contsants/router';
+import { urlRoutes } from '../constants/router';
 
 // todo - update all the links behavior, not only navigation
 const initDynamicLinks = () => {
