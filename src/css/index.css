@@ -1,3 +1,6 @@
+@import url('./core/theme-toggler.css');
+@import url('./core/palette.css');
+
 :root {
   color-scheme: light;
 }
@@ -7,5 +10,5 @@
 }
 
 header {
-  background-color: light-dark(white, tomato);
+  background-color: light-dark(var(--black-900), var(--white));
 }

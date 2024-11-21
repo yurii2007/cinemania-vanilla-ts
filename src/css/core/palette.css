@@ -1,0 +1,23 @@
+:root {
+  /* Main Palette */
+  --primary: #f87719;
+  --primary-800: #ff6b08;
+  --primary-800-40: #ff6b082a;
+  --primary-700: #ff8826;
+  --primary-600: #ff933a;
+
+  --black: #111111;
+  --black-900: #000000;
+  --black-800: #282828;
+
+  --gray: #585858;
+  --gray-200: #b7b7b7;
+  --gray-100: #f8f8f8;
+
+  --white: #ffffff;
+
+  --yellow: #ffcc33;
+
+  /* Shadows */
+  --primary-shadow: 1px 1px 14px 4px var(--primary-800-40);
+}
