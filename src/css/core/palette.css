@@ -11,6 +11,7 @@
   --black-800: #282828;
 
   --gray: #585858;
+  --gray-300: #595959;
   --gray-200: #b7b7b7;
   --gray-100: #f8f8f8;
 
@@ -20,4 +21,7 @@
 
   /* Shadows */
   --primary-shadow: 1px 1px 14px 4px var(--primary-800-40);
+
+  /* Animations */
+  --theme-transition: 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }

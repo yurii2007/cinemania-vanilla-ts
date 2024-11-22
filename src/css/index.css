@@ -1,5 +1,5 @@
-@import url('./core/theme-toggler.css');
-@import url('./core/palette.css');
+@import url('./core/index.css');
+@import url('./components/index.css');
 
 :root {
   color-scheme: light;
@@ -9,6 +9,9 @@
   color-scheme: dark;
 }
 
-header {
-  background-color: light-dark(var(--black-900), var(--white));
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+  margin: 0;
 }

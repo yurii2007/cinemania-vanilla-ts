@@ -8,7 +8,7 @@ const router = express.Router();
 app.use(express.static('build'));
 
 router.get('*', async (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'build','index.html'));
 });
 
 app.use(router);
